@@ -1,53 +1,48 @@
 {
   "testScores": {
-    "Factory Function Tests": {
-      "FaFuTe1": 0,
-      "FaFuTe2": 0,
-      "FaFuTe3": 0,
-      "FaFuTe4": 0,
-      "FaFuTe5": 0
-    },
     "Has Many / Belongs To Tests": {
-      "HaMa/BeToTe1": 0,
-      "HaMa/BeToTe2": 0,
-      "HaMa/BeToTe3": 0,
-      "HaMa/BeToTe4": 0,
-      "HaMa/BeToTe5": 0,
-      "HaMa/BeToTe6": 0,
+      "HaMa/BeToTe1": 1,
+      "HaMa/BeToTe2": 1,
+      "HaMa/BeToTe3": 1,
+      "HaMa/BeToTe4": 1,
+      "HaMa/BeToTe5": 1,
+      "HaMa/BeToTe6": 1,
       "HaMa/BeToTe7": 0,
-      "HaMa/BeToTe8": 0,
-      "HaMa/BeToTe9": 0,
-      "HaMa/BeToTe10": 0,
-      "HaMa/BeToTe11": 0,
-      "HaMa/BeToTe12": 0,
-      "HaMa/BeToTe13": 0,
-      "HaMa/BeToTe14": 0,
-      "HaMa/BeToTe15": 0
+      "HaMa/BeToTe8": 1,
+      "HaMa/BeToTe9": 1,
+      "HaMa/BeToTe10": 1,
+      "HaMa/BeToTe11": 1,
+      "HaMa/BeToTe12": 1,
+      "HaMa/BeToTe13": 1,
+      "HaMa/BeToTe14": 1,
+      "HaMa/BeToTe15": 1
     },
     "Inheritance & Polymorphism Tests": {
-      "In&PoTe1": 0,
-      "In&PoTe2": 0,
+      "In&PoTe1": 1,
+      "In&PoTe2": 1,
       "In&PoTe3": 0,
-      "In&PoTe4": 0,
-      "In&PoTe5": 0,
+      "In&PoTe4": 1,
+      "In&PoTe5": 1,
       "In&PoTe6": 0,
-      "In&PoTe7": 0,
+      "In&PoTe7": 1,
       "In&PoTe8": 0,
       "In&PoTe9": 0,
-      "In&PoTe10": 0,
-      "In&PoTe11": 0,
-      "In&PoTe12": 0,
-      "In&PoTe13": 0,
+      "In&PoTe10": 1,
+      "In&PoTe11": 1,
+      "In&PoTe12": 1,
+      "In&PoTe13": 1,
       "In&PoTe14": 0,
       "In&PoTe15": 0
+    },
+    "Factory Function Tests": {
+      "FaFuTe1": 1,
+      "FaFuTe2": 1,
+      "FaFuTe3": 1,
+      "FaFuTe4": 1,
+      "FaFuTe5": 0
     }
   },
   "idToTestNameHash": {
-    "FaFuTe1": "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods",
-    "FaFuTe2": "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number",
-    "FaFuTe3": "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given",
-    "FaFuTe4": "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message",
-    "FaFuTe5": "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message",
     "HaMa/BeToTe1": "Has Many / Belongs To Tests ToDoItem - Creates the minimum required instance properties",
     "HaMa/BeToTe2": "Has Many / Belongs To Tests ToDoList - Creates the minimum required instance properties",
     "HaMa/BeToTe3": "Has Many / Belongs To Tests ToDoList - Has the minimum required instance methods",
@@ -77,14 +72,14 @@
     "In&PoTe12": "Inheritance & Polymorphism Tests AppleIPhone - creates a phone with the right instance properties",
     "In&PoTe13": "Inheritance & Polymorphism Tests AppleIPhone - creates a phone with the right instance methods",
     "In&PoTe14": "Inheritance & Polymorphism Tests AppleIPhone - inherits from Phone",
-    "In&PoTe15": "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others"
+    "In&PoTe15": "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others",
+    "FaFuTe1": "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods",
+    "FaFuTe2": "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number",
+    "FaFuTe3": "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given",
+    "FaFuTe4": "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message",
+    "FaFuTe5": "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message"
   },
   "testNameToIdHash": {
-    "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods": "FaFuTe1",
-    "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number": "FaFuTe2",
-    "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given": "FaFuTe3",
-    "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message": "FaFuTe4",
-    "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message": "FaFuTe5",
     "Has Many / Belongs To Tests ToDoItem - Creates the minimum required instance properties": "HaMa/BeToTe1",
     "Has Many / Belongs To Tests ToDoList - Creates the minimum required instance properties": "HaMa/BeToTe2",
     "Has Many / Belongs To Tests ToDoList - Has the minimum required instance methods": "HaMa/BeToTe3",
@@ -114,12 +109,17 @@
     "Inheritance & Polymorphism Tests AppleIPhone - creates a phone with the right instance properties": "In&PoTe12",
     "Inheritance & Polymorphism Tests AppleIPhone - creates a phone with the right instance methods": "In&PoTe13",
     "Inheritance & Polymorphism Tests AppleIPhone - inherits from Phone": "In&PoTe14",
-    "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others": "In&PoTe15"
+    "Inheritance & Polymorphism Tests AppleIPhone - sendIMessage(): returns the right message when messaging iPhones vs. others": "In&PoTe15",
+    "Factory Function Tests bankAccountFactory - object initialized with ONLY the expected methods": "FaFuTe1",
+    "Factory Function Tests bankAccountFactory - checkBalance(): returns the current balance as a number": "FaFuTe2",
+    "Factory Function Tests bankAccountFactory - an account value defaults to 0 if no argument is given": "FaFuTe3",
+    "Factory Function Tests bankAccountFactory - add(): increases the balance and console logs a message": "FaFuTe4",
+    "Factory Function Tests bankAccountFactory - subtract(): decreases the balance and logs a message": "FaFuTe5"
   },
   "humanReadable": {
-    "Factory Function Tests": "0/5",
-    "finalTestScore": "FINAL SCORE: 0/35",
-    "Has Many / Belongs To Tests": "0/15",
-    "Inheritance & Polymorphism Tests": "0/15"
+    "Has Many / Belongs To Tests": "14/15",
+    "finalTestScore": "FINAL SCORE: 27/35",
+    "Inheritance & Polymorphism Tests": "9/15",
+    "Factory Function Tests": "4/5"
   }
 }
